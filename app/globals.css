@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*  {
+    padding: 2px 10px 2px 28px;
+}
+.card {
+    border: 2px solid rgb(201, 192, 192);
+    border-radius: 23px;
+    margin-bottom: 20px;
+    padding:  10px 30px;
+    text-align: center;
+    
+}
+.exp_card {
+    width: 50%;
+    border: 2px solid rgb(201, 192, 192);
+    padding: 20px;
+    border-radius: 22px;
+}
+span img {
+    width: 61px;
+  
+}
+.exp_card li {
+    display: flex;
+    align-items :center;
+}
+.project_card {
+    width: 30%;
+    height: 325px;
+    padding: 0;
+    border: 2px solid rgb(201, 192, 192);
+    border-radius: 22px;
+}
+
+.project_card{
+    border-radius: 22px;
+    padding: 10px;
+}
+.project_img img{
+    border-radius: 22px;
+    padding: 10px;
+    border: 2px solid gray;
+    height:157px;
+    margin-top: 10px;
+}
+.contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.main_contact .me {
+    border: 2px solid rgb(105, 104, 104, 0.5);
+    border-radius: 30px;
+    display: flex;
+    padding: 30px;
+}
+.main_contact .me img {
+    width: 25px;
+    padding: 0;
+    height: 25px;
+    border-radius: 30px;
+}
